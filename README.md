@@ -33,10 +33,10 @@ Example
 
 Breadcrumbs now take an addition parameter, a product as parameter two:
 
-<%=breadcrumbs(@taxon, @product, optional_seperator_string)%>
+    <%= breadcrumbs(@taxon, @product, optional_seperator_string)%>
 
 For backwards compatibility the optional separator string can also be passed as the second parameter, but doing so limits some of the functionality of the breadcrumbs.
 
 To get the path to the last breadcrumb use:
 
-<%=link_to 'back', last_crumb_path%>
+    <%= link_to 'back', last_crumb_path%>
